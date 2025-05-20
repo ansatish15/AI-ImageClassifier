@@ -48,7 +48,7 @@ Before running the code, you need to set up folders with training images:
 2. Add dog images to the `images` folder
    - Images should be named using the pattern: `n02099601_*.jpg`
    - Example: `n02099601_1.jpg`, `n02099601_2.jpg`, etc.
-   - You need at least 5-10 different dog images for good results
+   - You need at least 50+ different dog images for good results
    - Use clear, well-lit images of the dogs you want to detect
 
 3. Create a `non_dog` folder (for better accuracy)
