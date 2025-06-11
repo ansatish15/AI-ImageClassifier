@@ -65,7 +65,7 @@ Before running the code, you need to set up folders with training images:
 
 Before running, update the Arduino port in the code:
 
-1. Open `DogDetectorArduino2.py` in a text editor
+1. Open `DogDetectorArduino.py` in a text editor
 2. Find the line: `self.arduino_port = '/dev/cu.usbmodemC04E301371642'`
 3. Change this to match your Arduino's port:
    - Windows: Usually `'COM3'` (or other COM port number)
@@ -84,7 +84,7 @@ Before running, update the Arduino port in the code:
 
 Run the program:
 ```
-python DogDetectorArduino2.py
+python DogDetectorArduino.py
 ```
 
 The first time you run it, the system will:
